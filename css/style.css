@@ -31,7 +31,8 @@ body{
 
 .container{
     width: 900px;
-    padding: 30px 10px 70px;
+    padding: 0px 10px;
+    padding-top: 30px;
     margin: 0 auto;
 }
 
