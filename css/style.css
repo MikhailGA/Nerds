@@ -16,6 +16,12 @@
     url("../fonts/robotomedium.woff2") format("woff2");
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body{
     font-family: "Roboto", "Arial", sans-serif;
     font-size: 16px;
@@ -25,15 +31,66 @@ body{
     background: #ffffff;
 }
 
+.container{
+    width: 880px;
+    padding: 0px 10px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
 .main-header{
     background-color: #eeeeee;
 }
 
-.container{
-    width: 900px;
-    padding: 0px 10px;
-    padding-top: 30px;
-    margin: 0 auto;
+.header-menu{
+    margin-bottom: 40px;
+}
+
+.header-logo{
+    float: left;
+}
+
+.header-menu .basket{
+    float: right;
+}
+
+.header-nav{
+    float: right;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.header-nav li{
+    float: left;
+
+    margin-right: 45px;
+    padding-top: 25px;
+}
+
+.header-nav .basket{
+    padding-left: 50px;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.header-nav li:last-child{
+    margin-right: 0;
+}
+
+.slider-abilities{
+    clear: both;
 }
 
 .main-header .slide{
