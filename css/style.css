@@ -24,3 +24,22 @@ body{
 
     background: #ffffff;
 }
+
+.main-header{
+    background-color: #eeeeee;
+}
+
+.container{
+    width: 900px;
+    padding: 0px 10px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.main-header .slide{
+    display: none;
+}
+
+.main-header .active-slide{
+    display: block;
+}
