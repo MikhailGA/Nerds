@@ -95,6 +95,25 @@ body{
 
 .main-header .slide{
     display: none;
+    width: 480px;
+}
+
+.slide h2{
+    margin: 0;
+    margin-bottom: 25px;
+
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.slide p{
+    margin: 0;
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
 }
 
 .main-header .active-slide{
