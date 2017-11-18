@@ -38,8 +38,23 @@ body{
     margin: 0 auto;
 }
 
+.btn{
+    display: inline-block;
+
+    padding: 10px 70px;
+
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    border-radius: 2px;
+}
+
 .main-header{
     background-color: #eeeeee;
+    margin-bottom: 50px;
 }
 
 .header-menu{
@@ -133,19 +148,218 @@ body{
 }
 
 .slide .btn{
-    display: inline-block;
-
-    padding: 10px 70px;
-
-    font-size: 12px;
-    line-height: 18px;
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-
     background-color: #fb565a;
-    border-radius: 2px;
 }
 .main-header .active-slide{
     display: block;
+}
+
+.slider-abilities .select-bar{
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    margin-left: -10px;
+}
+
+.skills-list{
+    padding-bottom: 80px;
+    margin-bottom: 60px;
+
+    border-bottom: 2px solid #eeeeee;
+}
+
+.skills-list .skill{
+    float: left;
+    max-width: 240px;
+
+    margin-right: 80px;
+}
+
+.skills-list .skill:nth-child(3n){
+    margin-right: 0;
+}
+
+.skill figure{
+    margin: 0;
+    padding: 0;
+}
+
+.skill figcaption{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.skill img{
+    width: 240px;
+    height: 124px;
+
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.skill p{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.skill .btn{
+    padding:10px 40px;
+}
+
+.skill:nth-child(1) .btn{
+    background-color: #fb565a;
+}
+
+.skill:nth-child(2) .btn{
+    background-color: #00ca74;
+}
+
+.skill:nth-child(3) .btn{
+    background-color: #efc84a;
+}
+
+.about-us{
+    clear: both;
+    padding-bottom: 65px;
+    margin-bottom: 45px;
+
+    border-bottom: 2px solid #eeeeee;
+}
+
+.about-us .left-part{
+    float: left;
+    max-width: 610px;
+}
+
+.about-us h2,
+.about-us h3,
+.about-us p,
+.about-us img,
+.about-us ul{
+    margin: 0;
+    padding: 0;
+}
+
+.about-us h2{
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.about-us p{
+    margin-bottom: 45px;
+
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.about-us h3{
+    padding-bottom: 20px;
+
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.about-us ul{
+    list-style: none;
+}
+
+.about-us li{
+    display: block;
+    position: relative;
+
+    padding-left:35px;
+    margin-bottom: 25px;
+
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.about-us li::before{
+    content: "";
+    display: block;
+    position: absolute;
+
+    height: 2px;
+    width: 25px;
+    left: 0;
+    top:50%;
+
+    margin-top: -1px;
+
+    background-color: #fb565a;
+}
+
+.about-us li:last-child{
+    margin-bottom: 0;
+}
+
+.about-us .right-part{
+    float: right;
+    width: 240px;
+}
+
+.about-us .right-part a{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.about-us .right-part img{
+    display: block;
+    margin: 0 auto;
+}
+
+.about-us .sign{
+    position: relative;
+
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+
+.about-us .sign::after{
+    content: "";
+    display: block;
+    position: relative;
+    z-index: 0;
+
+    top: -12px;
+
+    border-bottom: 2px solid #eeeeee;
+}
+
+.about-us .sign b{
+    position: relative;
+    display: inline;
+    z-index: 2;
+
+    padding: 0 15px;
+
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    background: #ffffff;
+}
+
+.about-us .right-part b:before{
+
 }
